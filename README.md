@@ -1,6 +1,8 @@
 curl-rtsp
 ========
 
+[![Build Status](https://travis-ci.org/Akagi201/curl-rtsp.svg)](https://travis-ci.org/Akagi201/curl-rtsp)
+
 A `RTSP` client based on `libcurl`.
 
 ## Sequence of `RTSP` requests
