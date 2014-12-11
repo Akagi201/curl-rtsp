@@ -1,0 +1,10 @@
+{
+  "name": "curl-rtsp",
+  "version": "0.1.0",
+  "repo": "Akagi201/curl-rtsp",
+  "description": "A RTSP client based on libcurl",
+  "license": "MIT",
+  "src": [
+    "curl-rtsp.c"
+  ]
+}

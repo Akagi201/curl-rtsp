@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.4)
 
 project(curl_rtsp)
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES curl-rtsp.c)
 
 include_directories(${PROJECT_SOURCE_DIR}/deps "/usr/local/include" "/usr/local/opt/curl/include")
 
