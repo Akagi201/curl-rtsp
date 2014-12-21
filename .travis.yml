@@ -1,3 +1,13 @@
 language: c
+
+os:
+    - osx
+
 compiler: gcc
-script: ./start_build.sh; cd build; make
+
+script: brew install lua; ./start_build.sh; cd build; make
+
+notifications:
+    email: true
+    irc: "irc.greenode.org#akmaker"
+
